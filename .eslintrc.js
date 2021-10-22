@@ -1,5 +1,5 @@
 module.exports = {
-    env: {
+	env: {
 		browser: true,
 		es2021: true,
 	},
@@ -18,7 +18,7 @@ module.exports = {
 		semi: ['error', 'always'],
 		quotes: ['error', 'single'],
 		indent: ['error', 'tab'],
-		'import/no-extraneous-dependencies': ['error',  {devDependencies: true}],
+		'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
 		'import/prefer-default-export': 'off',
 		'no-console': 'off',
 		'func-names': 'off',
