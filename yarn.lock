@@ -1105,7 +1105,7 @@
     "@chakra-ui/react-utils" "1.1.2"
     "@chakra-ui/utils" "1.8.3"
 
-"@chakra-ui/layout@1.4.10":
+"@chakra-ui/layout@1.4.10", "@chakra-ui/layout@^1.4.10":
   version "1.4.10"
   resolved "https://registry.yarnpkg.com/@chakra-ui/layout/-/layout-1.4.10.tgz#283804f206ea05d9158a7238ce2a1fa6cc954968"
   integrity sha512-KtJOKCYyCzUBRrBRNAr9SAhvC6KtSxzIM1NynA0dJSGEVHdkeVchfoZRSNfji60T0vNVA6hVGdgBi9DjZlh02Q==

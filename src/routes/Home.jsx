@@ -1,8 +1,10 @@
+import { Box, Text } from '@chakra-ui/layout';
 import React from 'react';
-import Nav from '../components/Nav';
 
 const Home = () => (
-	<Nav />
+	<Box>
+		<Text>ABC</Text>
+	</Box>
 );
 
 export default Home;
