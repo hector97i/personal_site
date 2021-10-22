@@ -1,9 +1,8 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const Home = () => (
-	<p>
-		Welcome curious cat!
-	</p>
+	<Nav />
 );
 
 export default Home;
