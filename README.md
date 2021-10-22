@@ -6,7 +6,8 @@ Rendered with Webpack, compiled by Babel. Using yarn for faster cache build.
 Run development server
 ```bash
 npm i -g yarn
-yarn start
+yarn install
+yarn serve
 ```
 
 Open new terminal to build dev bundle.
@@ -15,3 +16,9 @@ yarn watch
 ```
 
 Go to http://localhost:5000/
+
+## Production
+Build frontend
+```bash
+yarn build
+```
