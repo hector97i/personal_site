@@ -12,9 +12,6 @@ module.exports = {
 	resolve: {
 		extensions: ['.js', '.jsx'],
 	},
-  resolve: {
-    modules: [path.resolve(__dirname, 'node_modules'), 'node_modules']
-  },
 	module: {
 		rules: [
 			{
@@ -60,8 +57,8 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			filename: 'assets/[name].css',
 		}),
-    new HtmlWebpackPlugin({
-      templateContent: 
+		new HtmlWebpackPlugin({
+			templateContent:
 `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +71,7 @@ module.exports = {
     <div id="app"></div>
 </body>
 </html>
-`
-    }),
+`,
+		}),
 	],
 };

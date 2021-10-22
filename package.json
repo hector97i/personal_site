@@ -9,7 +9,9 @@
   "scripts": {
     "serve": "nodemon server/index.js",
     "watch": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint": "eslint src --ext .js,.jsx --cache --fix",
+    "lint:ci": "eslint src --ext .js,.jsx"
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {
@@ -19,6 +21,10 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.4.0",
     "eslint": "^8.0.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.4.0",
     "react": "^17.0.2",
